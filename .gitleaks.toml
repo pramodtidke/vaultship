@@ -1,0 +1,9 @@
+[allowlist]
+  description = "Allow test/example credential strings"
+  paths = [
+    '''tests/.*''',
+    '''README\.md'''
+  ]
+  regexes = [
+    '''EXAMPLE_KEY_DO_NOT_USE'''
+  ]

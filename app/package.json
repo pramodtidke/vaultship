@@ -1,0 +1,16 @@
+{
+  "name": "vaultship-app",
+  "version": "1.0.0",
+  "description": "VaultShip demo app for DevSecOps pipeline",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint . --ext .js"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
